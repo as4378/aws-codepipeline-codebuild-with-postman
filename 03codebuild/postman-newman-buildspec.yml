@@ -12,9 +12,6 @@ phases:
       - npm install -g newman
       - yum install -y jq
 
-  pre_build:
-    commands:
-
   build:
     commands:
       - echo Build started on `date` from dir `pwd`
